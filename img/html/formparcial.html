@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Parcial</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100,300;400;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: 'Poppins','sans-serif';
+            background: rgb(208,255,205);
+            background: linear-gradient(0deg, rgba(208,255,205,1) 0%, rgba(199,250,183,1) 12%, rgba(0,212,255,1) 100%);
+            height: 100vh;
+            display: flex;
+        }
+        .container{
+            /* justify-content: center; */
+            max-width: 600px;
+            margin: auto;
+        }
+        .form-space{
+            border: 1px solid fff;
+            border-radius: 10px;
+            padding: 30px;
+            background-color: #fff;
+            margin: 40px;
+        }
+        .title-form{
+            box-shadow: 0 0 10px gray;
+            text-align: center;
+            border-radius: 50px;
+
+        }
+        .description-from{
+            margin: 15px 0;
+        }
+        .form{
+            
+        }
+        .line-form {
+            margin-bottom: 8px;
+            width: 100%;
+            display: flex;
+        }
+
+        .line-form label{
+            width: 30%;
+            font-weight: 600;
+        }
+
+        .line-form input{
+            width: 70%;
+            height: 100%;
+            border: 1px solid grey;
+        }
+
+        .boton {
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            margin-top: 16px;
+        }
+
+        .button-send {
+            background-color: #fff;
+            padding: 7px 200px;
+            border-radius: 50px;
+            border: 1px solid;
+        }
+
+        .button-send:hover {
+            box-shadow: 0 0 10px green;
+            transition: all 0.5s;
+        }
+
+        .enlace {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-space">
+            <div class="title-form">
+                <h1>Form Register</h1>
+            </div>
+            <div class="description-from">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, corrupti explicabo eligendi, numquam ut voluptates minus in consequatur eum a voluptatibus necessitatibus natus perferendis? Ullam minima distinctio culpa harum. Illo?
+            </div>
+            <div class="form">
+        
+                <div class="line-form">
+                    <label for="nombre">Name:</label>
+                    <input id="nombre" type="text" placeholder="  Escriba sus nombres">
+                </div>
+                <div class="line-form">
+                    <label for="ultimoNombre">Last Name:</label>
+                    <input id="ultimoNombre" type="text" placeholder="  Escriba sus apellidos">
+                </div>
+                <div class="line-form">
+                    <label for="telefono">Phone:</label>
+                    <input id="telefono" type="number" placeholder="  Escriba su numero de telefono">
+                </div>
+                <div class="line-form">
+                    <label for="email">E-mail:</label>
+                    <input id="email" type="email" placeholder="  Escriba su correo electronico">
+                </div>
+                <div class="line-form">
+                    <label for="contraseña">Password:</label>
+                    <input id="contraseña" type="password" placeholder="  Escriba su contraseña">
+                </div>
+                <div class="line-form">
+                    <label for="repetirContraseña">Repeat Password:</label>
+                    <input id="repetirContraseña" type="password" placeholder="  Repita su contraseña">
+                </div>
+                <div class="boton">
+                    <button class="button-send">ENVIAR</button>
+                </div>
+
+                <div class="enlace">
+                    <a href="/index.html">Volver Atras</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

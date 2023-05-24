@@ -8,6 +8,72 @@
     <link rel="stylesheet" href="../css/formulario.css">
 </head>
 <body>
-    
+    <div class="wrapper">
+        <div class="form-box login">
+            <h2>FORMULARIO</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </span>
+                    <input type="email" required>
+                    <label for="">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-lock"></i>
+                    </span>
+                    <input type="password" required>
+                    <label for="">Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Recordarme</label>
+                    <a href="#">Olvidaste tu contraseña?</a>
+                </div>
+                <button type="submit" class="btn">Acceder</button>
+                <div class="login-register">
+                    <p>No tienes una cuenta?<a href="#" class="register-link">Registrate</a></p>
+                </div>
+            </form>
+        </div>
+        
+        <div class="form-box register">
+            <h2>REGISTRACION</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-user"></i>
+                    </span>
+                    <input type="text" required>
+                    <label for="">Nombre De Usuario</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </span>
+                    <input type="email" required>
+                    <label for="">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fa-solid fa-lock"></i>
+                    </span>
+                    <input type="password" required>
+                    <label for="">Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Estoy de acuerdo con los terminos y condiciones</label>
+                </div>
+                <button type="submit" class="btn">Registrar</button>
+                <div class="login-register">
+                    <p>Ya tienes una cuenta?<a href="#" class="register-link">Acceder</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="../js/formulario.js"></script>
+    <script src="https://kit.fontawesome.com/5a4cae0ec8.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
